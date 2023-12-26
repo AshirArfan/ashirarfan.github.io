@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+.background-image {
+    background-image: url('https://giki.edu.pk/wp-content/uploads/2023/04/Aerial-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.main {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-around; /* Horizontally distribute items */
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 45%; /* Set the width to accommodate two cards in a row with some spacing */
+    margin: 10px; /* Add margin to create spacing between cards */
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+    padding: 2px 16px;
+}
+.card-body {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* .table
+{
+    ;
+} */
