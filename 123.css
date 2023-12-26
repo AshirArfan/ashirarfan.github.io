@@ -1,8 +1,15 @@
 body {
     font-family: Arial, sans-serif;
 }
+nav {
+    background-color: rgb(0, 0, 0);
+}
+a
+{
+    color: #f1f1f1;
+}
 .header {
-    background-color: #f8f9fa;
+    background-color: #95daed;
     padding: 20px;
     text-align: center;
 }
